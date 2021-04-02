@@ -1,391 +1,370 @@
 
 <!DOCTYPE html>
-<html lang="en-US">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="description" content="gauto | Car Rental HTML Template from Themescare">
-      <meta name="keyword" content="taxi,car,rent,hire,transport">
-      <meta name="author" content="Themescare">
-      <!-- Title -->
-      <title>Jalandhar To Delhi Taxi | One Way Travel | +91-9814175546</title>
-      <!-- Favicon -->
-      <link rel="icon" type="image/png" sizes="32x32" href="{{url('assets\favicons\favicon-favicon-32x32.png')}}">
-      <!--Bootstrap css-->
-      <link rel="stylesheet" href="{{url('assets/css/css-bootstrap.css')}}">
-      <!--Font Awesome css-->
-      <link rel="stylesheet" href="{{url('assets/css/css-font-awesome.min.css')}}">
-      <!--Magnific css-->
-      <link rel="stylesheet" href="{{url('assets/css/css-magnific-popup.css')}}">
-      <!--Owl-Carousel css-->
-      <link rel="stylesheet" href="{{url('assets/css/css-owl.carousel.min.css')}}">
-      <link rel="stylesheet" href="{{url('assets/css/css-owl.theme.default.min.css')}}">
-      <!--Animate css-->
-      <link rel="stylesheet" href="{{url('assets/css/css-animate.min.css')}}">
-      <!--Datepicker css-->
-      <link rel="stylesheet" href="{{url('assets/css/css-jquery.datepicker.css')}}">
-      <!--Nice Select css-->
-      <link rel="stylesheet" href="{{url('assets/css/css-nice-select.css')}}">
-      <!-- Lightgallery css -->
-      <link rel="stylesheet" href="{{url('assets/css/css-lightgallery.min.css')}}">
-      <!--ClockPicker css-->
-      <link rel="stylesheet" href="{{url('assets/css/css-jquery-clockpicker.min.css')}}">
-      <!--Slicknav css-->
-      <link rel="stylesheet" href="{{url('assets/css/css-slicknav.min.css')}}">
-      <!--Site Main Style css-->
-      <link rel="stylesheet" href="{{url('assets/css/css-style.css')}}">
-      <!--Responsive css-->
-      <link rel="stylesheet" href="{{url('assets/css/css-responsive.css')}}">
-   </head>
-   <body>
-       
-       
-      <!-- Header Top Area Start -->
-      <section class="gauto-header-top-area">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="header-top-left">
-                     <p>Book Taxi: <i class="fa fa-phone"></i> Call: +91-981 417 5546</p>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="header-top-right">
-                      <div class="row">
-                     <div class="col-md-6">
-                     <a href="#">
-                     <i class="fa fa-phone"></i> 
-                     INDIA: 
-                     (+91-98765 75546)
-                     </a>
-                     </div>
-                     <div class="col-md-6">
-                     <a href="#">
-                     <i class="fa fa-phone"></i>
-                     Canada: 
-                     (+1 5144 430 459)
-                     </a>
-                     </div>
-                     </div>
-                     <!-- <div class="dropdown">
-                        <button class="btn-dropdown dropdown-toggle" type="button" id="dropdownlang" data-toggle="dropdown" aria-haspopup="true">
-                        <img src="{{url('assets/images/img-en.png')}}" alt="lang" /> English
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownlang">
-                           <li><img src="{{url('assets/images/img-ca.png')}}" alt="lang" /> Canada</li>
-                           <li><img src="{{url('assets/images/img-fa.png')}}" alt="lang" /> French</li>
-                           <li><img src="{{url('assets/images/img-ja.png')}}" alt="lang" /> Japanese</li>
-                        </ul>
-                     </div> -->
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- Header Top Area End -->
-       
-       
-      <!-- Main Header Area Start -->
-      <header class="gauto-main-header-area">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-3">
-                  <div class="site-logo">
-                        <a href="index.html">
-                           <img src="{{url('assets/images/logo.png')}}" alt="One Way Travel" width="140px" height="76px"/>
-                        </a> 
-                  </div>
-               </div>
-               <div class="col-lg-6 col-sm-9">
-                  <div class="header-promo">
-                     <div class="single-header-promo">
-                        <div class="header-promo-icon">
-                           <img src="{{url('assets/images/img-globe.png')}}" alt="globe" />
-                        </div>
-                        <div class="header-promo-info">
-                           <h3>Jalandhar City</h3>
-                           <p>Punjab, India, 144024</p>
-                        </div>
-                     </div>
-                     <div class="single-header-promo">
-                        <div class="header-promo-icon">
-                           <img src="{{url('assets/images/img-clock.png')}}" alt="clock" />
-                        </div>
-                        <div class="header-promo-info">
-                           <h3>Monday to Sunday</h3>
-                           <p>06:00am - 11:00pm</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="header-action">
-                     <a href="#"><i class="fa fa-whatsapp"></i> Whatsapp - Us</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </header>
-      <!-- Main Header Area End -->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
 
-       <!-- Mainmenu Area Start -->
-      <section class="gauto-mainmenu-area">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-9">
-                  <div class="mainmenu">
-                     <nav>
-                        <ul id="gauto_navigation">
-                           <li class="active"><a href="index.html">home</a></li>
-                           <li><a href="about.html">about</a></li>
-                           <li>
-                              <a href="#">Service</a>
-                              <ul>
-                                 <li><a href="service.html">All services</a></li>
-                                 <li><a href="single-service.html">Service Details</a></li>
-                              </ul>
-                           </li>
-                           <li>
-                              <a href="#">cars</a>
-                              <ul>
-                                 <li><a href="car-listing.html">car listing</a></li>
-                                 <li><a href="car-booking.html">car booking</a></li>
-                              </ul>
-                           </li>
-                           <li><a href="gallery.html">gallery</a></li>
-                           <li>
-                              <a href="#">Shop</a>
-                              <ul>
-                                 <li><a href="products.html">products</a></li>
-                                 <li><a href="single-product.html">product details</a></li>
-                                 <li><a href="cart.html">Shoping Cart</a></li>
-                                 <li><a href="checkout.html">checkout</a></li>
-                              </ul>
-                           </li>
-                           <li>
-                              <a href="#">pages</a>
-                              <ul>
-                                 <li><a href="blog.html">blog</a></li>
-                                 <li><a href="single-blog.html">single blog</a></li>
-                                 <li><a href="404.html">404 not found</a></li>
-                                 <li><a href="login.html">login</a></li>
-                                 <li><a href="register.html">register</a></li>
-                              </ul>
-                           </li>
-                           <li><a href="contact.html">contact</a></li>
-                        </ul>
-                     </nav>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-sm-12">
-                  <div class="main-search-right">
-                     <!-- Responsive Menu Start -->
-                     <div class="gauto-responsive-menu"></div>
-                     <!-- Responsive Menu Start -->
-                      
-                     <!-- Cart Box Start -->
-                     <div class="header-cart-box">
-                        <div class="login dropdown">
-                           <button class="dropdown-toggle cart-icon" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           <span>2</span>
-                           </button>
-                           <div class="dropdown-menu cart-dropdown" aria-labelledby="dropdownMenu1">
-                              <ul class="product_list">
-                                 <li>
-                                    <div class="cart-btn-product">
-                                       <a class="product-remove" href="#">
-                                       <i class="fa fa-times"></i>
-                                       </a>
-                                       <div class="cart-btn-pro-img">
-                                          <a href="#">
-                                          <img src="{{url('assets/images/img-cart-1.png')}}" alt="product" />
-                                          </a>
-                                       </div>
-                                       <div class="cart-btn-pro-cont">
-                                          <h4><a href="#">CAR SPOILERS</a></h4>
-                                          <p>Quantity 2</p>
-                                          <span class="price">
-                                          $29.99
-                                          </span>
-                                       </div>
-                                    </div>
-                                 </li>
-                                 <li>
-                                    <div class="cart-btn-product">
-                                       <a class="product-remove" href="#">
-                                       <i class="fa fa-times"></i>
-                                       </a>
-                                       <div class="cart-btn-pro-img">
-                                          <a href="#">
-                                          <img src="{{url('assets/images/img-cart-2.jpg')}}" alt="product" />
-                                          </a>
-                                       </div>
-                                       <div class="cart-btn-pro-cont">
-                                          <h4><a href="#">CAR SPOILERS</a></h4>
-                                          <p>Quantity 2</p>
-                                          <span class="price">
-                                          $29.99
-                                          </span>
-                                       </div>
-                                    </div>
-                                 </li>
-                              </ul>
-                              <div class="cart-subtotal">
-                                 <p>
-                                    Subtotal :
-                                    <span class="drop-total">$59.98</span>
-                                 </p>
-                              </div>
-                              <div class="cart-btn">
-                                 <a href="#" class="cart-btn-1">View Cart</a>
-                                 <a href="#" class="cart-btn-2">Checkout</a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- Cart Box End -->
-                      
-                     <!-- Search Box Start -->
-                     <div class="search-box">
-                        <form>
-                           <input type="search" placeholder="Search">
-                           <button type="submit"><i class="fa fa-search"></i></button>
-                        </form>
-                     </div>
-                     <!-- Search Box End -->
-                      
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- Mainmenu Area End -->
+<head>
+  <!-- =====  BASIC PAGE NEEDS  ===== -->
+  <meta charset="utf-8">
+  <title>Book Jalandhar to Delhi Taxi | One Way Travel | +91-9814175546</title>
+  <!-- =====  SEO MATE  ===== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="distribution" content="global">
+  <meta name="revisit-after" content="2 Days">
+  <meta name="robots" content="ALL">
+  <meta name="rating" content="8 YEARS">
+  <meta name="Language" content="en-us">
+  <meta name="GOOGLEBOT" content="NOARCHIVE">
+  <!-- =====  MOBILE SPECIFICATION  ===== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width">
+  <!-- =====  CSS  ===== -->
+  <link rel="stylesheet" type="text/css" href='{{url("css/font-awesome.min.css")}}'>
+  <link rel="stylesheet" type="text/css" href='{{url("css/bootstrap.css")}}'>
+  <link rel="stylesheet" type="text/css" href='{{url("css/style.css")}}'>
+  <link rel="stylesheet" type="text/css" href='{{url("css/magnific-popup.css")}}'>
+  <link rel="stylesheet" type="text/css" href='{{url("css/owl.carousel.css")}}'>
+  <link rel="shortcut icon" href='{{url("images//favicon.png")}}')}}'>
+  <link rel="apple-touch-icon" href='{{url("images//apple-touch-icon.png")}}')}}'>
+  <link rel="apple-touch-icon" sizes="72x72" href='{{url("images//apple-touch-icon-72x72.png")}}')}}'>
+  <link rel="apple-touch-icon" sizes="114x114" href='{{url("images//apple-touch-icon-114x114.png")}}')}}'>
+</head>
 
-      @yield('content')
-
-       <!-- Footer Area Start -->
-       <footer class="gauto-footer-area">
-         <div class="footer-top-area">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-4">
-                     <div class="single-footer quick_links">
-                        <h3>Punjab Routes</h3>
-                        <ul class="quick-links">
-                           <li><a href="#">Jalandhar To Delhi Airport One Way Taxi</a></li>
-                           <li><a href="#">Jalandhar To Delhi Airport One Way Taxi</a></li>
-                           <li><a href="#">Jalandhar To Delhi Airport One Way Taxi</a></li>
-                           <li><a href="#">Jalandhar To Delhi Airport One Way Taxi</a></li>
-                           <li><a href="#">Jalandhar To Delhi Airport One Way Taxi</a></li>
-                           <li><a href="#">Jalandhar To Delhi Airport One Way Taxi</a></li>
-                           <li><a href="#">Jalandhar To Delhi Airport One Way Taxi</a></li>
-                           <li><a href="#">Jalandhar To Delhi Airport One Way Taxi</a></li>
-                           <li><a href="#">Jalandhar To Delhi Airport One Way Taxi</a></li>
-                           <li><a href="#">Jalandhar To Delhi Airport One Way Taxi</a></li>
-                        </ul>
-
-                     </div>
-                  </div>
-                  <div class="col-lg-4">
-                     <div class="single-footer quick_links">
-                        <h3>Delhi Routes</h3>
-                        <ul class="quick-links">
-                           <li><a href="#">Delhi Airport To Jalandhar One Way Taxi</a></li>
-                           <li><a href="#">Delhi Airport To Jalandhar One Way Taxi</a></li>
-                           <li><a href="#">Delhi Airport To Jalandhar One Way Taxi</a></li>
-                           <li><a href="#">Delhi Airport To Jalandhar One Way Taxi</a></li>
-                           <li><a href="#">Delhi Airport To Jalandhar One Way Taxi</a></li>
-                           <li><a href="#">Delhi Airport To Jalandhar One Way Taxi</a></li>
-                           <li><a href="#">Delhi Airport To Jalandhar One Way Taxi</a></li>
-                           <li><a href="#">Delhi Airport To Jalandhar One Way Taxi</a></li>
-                        </ul>
-                     </div>
-                     <div class="single-footer newsletter_box">
-                        <h3>newsletter</h3>
-                        <form>
-                           <input type="email" placeholder="Email Address" />
-                           <button type="submit"><i class="fa fa-paper-plane"></i></button>
-                        </form>
-                     </div>
-                  </div>
-                  <div class="col-lg-4">
-                     <div class="single-footer">
-                        <h3>Trending Tour</h3>
-                        <ul>
-                        {{-- @foreach ($tours as $tour)
-                            <li>
-                              <div class="single-footer-post">
-                                 <div class="footer-post-image">
-                                    <a href="#">
-                                    <img src="{{url(''.$tour->displayImage)}}" alt="footer post" />
-                                    </a>
-                                 </div>
-                                 <div class="footer-post-text">
-                                    <h3>
-                                       <a href="#">
-                                       {{$tour->displayName}}
-                                       </a>
-                                    </h3>
-                                    <p>Starts From Rs. {{$tour->price}} /-</p>
-                                 </div>
-                              </div>
-                           </li>
-                        @endforeach --}}
-                        </ul>
-                     </div>
-                  </div>
-               </div>
+<body>
+  <!-- =====  LODER  ===== -->
+  <div class="loder"></div>
+  <div class="wrapper">
+    <div id="subscribe-me" class="modal animated fade in" role="dialog" data-keyboard="true" tabindex="-1">
+      <div class="newsletter-popup">
+        <img class="offer" src='{{url("images/newsbg.jpg")}}' alt="offer">
+        <div class="newsletter-popup-static newsletter-popup-top">
+          <div class="popup-text">
+            <div class="popup-title">50% <span>off</span></div>
+            <div class="popup-desc">
+              <div>Sign up and get 50% off your next Order</div>
             </div>
-         </div>
-         <div class="footer-bottom-area">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-6">
-                     <div class="copyright">
-                        <p>Design With <i class="fa fa-heart"></i> from <a href="#">Themescare</a></p>
-                     </div>
-                  </div>
-                  <div class="col-md-6">
-                     <div class="footer-social">
-                        <ul>
-                           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                           <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                           <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
+          </div>
+          <form onsubmit="return  validatpopupemail();" method="post">
+            <div class="form-group required">
+              <input type="email" name="email-popup" id="email-popup" placeholder="Enter Your Email" class="form-control input-lg" required />
+              <button type="submit" class="btn btn-default btn-lg" id="email-popup-submit">Subscribe</button>
+              <label class="checkme">
+                <input type="checkbox" value="" id="checkme" />Dont show again</label>
             </div>
-         </div>
-      </footer>
-      <!-- Footer Area End -->
-       
-       
-      <!--Jquery js-->
-      <script src="{{url('assets/js/js-jquery.min.js')}}"></script>
-      <!-- Popper JS -->
-      <script src="{{url('assets/js/js-popper.min.js')}}"></script>
-      <!--Bootstrap js-->
-      <script src="{{url('assets/js/js-bootstrap.min.js')}}"></script>
-      <!--Owl-Carousel js-->
-      <script src="{{url('assets/js/js-owl.carousel.min.js')}}"></script>
-      <!--Lightgallery js-->
-      <script src="{{url('assets/js/js-lightgallery-all.js')}}"></script>
-      <script src="{{url('assets/js/js-custom_lightgallery.js')}}"></script>
-      <!--Slicknav js-->
-      <script src="{{url('assets/js/js-jquery.slicknav.min.js')}}"></script>
-      <!--Magnific js-->
-      <script src="{{url('assets/js/js-jquery.magnific-popup.min.js')}}"></script>
-      <!--Nice Select js-->
-      <script src="{{url('assets/js/js-jquery.nice-select.min.js')}}"></script>
-      <!-- Datepicker JS -->
-      <script src="{{url('assets/js/js-jquery.datepicker.min.js')}}"></script>
-      <!--ClockPicker JS-->
-      <script src="{{url('assets/js/js-jquery-clockpicker.min.js')}}"></script>
-      <!--Main js-->
-      <script src="{{url('assets/js/js-main.js')}}"></script>
-   </body>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- =====  HEADER START  ===== -->
+    <header id="header">
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <ul class="header-top-left">
+                <li class="language dropdown"> <span class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <img src='{{url("images/English-icon.gif")}}' alt="img"> English <span class="caret"></span> </span>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#"><img src='{{url("images/English-icon.gif")}}' alt="img"> English</a></li>
+                    <li><a href="#"><img src='{{url("images/French-icon.gif")}}' alt="img"> French</a></li>
+                    <li><a href="#"><img src='{{url("images/German-icon.gif")}}' alt="img"> German</a></li>
+                  </ul>
+                </li>
+                <li class="currency dropdown"> <span class="dropdown-toggle" id="dropdownMenu12" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> USD <span class="caret"></span> </span>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu12">
+                    <li><a href="#">USD</a></li>
+                    <li><a href="#">EUR</a></li>
+                    <li><a href="#">AUD</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul class="header-top-right text-right">
+                <li class="account"><a href="login.html">My Account</a></li>
+                <li class="sitemap"><a href="#">Sitemap</a></li>
+                <li class="cart"><a href="cart_page.html">My Cart</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="container">
+          <nav class="navbar">
+            <div class="navbar-header mtb_20"> 
+               <a class="navbar-brand" href="index.html"> <h2>One Way Travel</h2>
+                  {{-- <img alt="Coolsd" src='{{url("images/logo.png")}}'> --}}
+               </a> 
+            </div>
+            <div class="header-right pull-right mtb_50">
+              <button class="navbar-toggle pull-left" type="button" data-toggle="collapse" data-target=".js-navbar-collapse"> <span class="i-bar"><i class="fa fa-bars"></i></span></button>
+              <div class="shopping-icon">
+                <div class="cart-item " data-target="#cart-dropdown" data-toggle="collapse" aria-expanded="true" role="button">Call: <span class="cart-qty">98141-75546</span></div>
+                <div id="cart-dropdown" class="cart-menu collapse">
+                  <ul>
+                    <li>
+                      <table class="table table-striped">
+                        <tbody>
+                          <tr>
+                            <td class="text-center"><a href="#"><img src='{{url("images/product/70x84.jpg")}}' alt="iPod Classic" title="iPod Classic"></a></td>
+                            <td class="text-left product-name"><a href="#">MacBook Pro</a>
+                              <span class="text-left price">$20.00</span>
+                              <input class="cart-qty" name="product_quantity" min="1" value="1" type="number">
+                            </td>
+                            <td class="text-center"><a class="close-cart"><i class="fa fa-times-circle"></i></a></td>
+                          </tr>
+                          <tr>
+                            <td class="text-center"><a href="#"><img src='{{url("images/product/70x84.jpg")}}' alt="iPod Classic" title="iPod Classic"></a></td>
+                            <td class="text-left product-name"><a href="#">MacBook Pro</a>
+                              <span class="text-left price">$20.00</span>
+                              <input class="cart-qty" name="product_quantity" min="1" value="1" type="number">
+                            </td>
+                            <td class="text-center"><a class="close-cart"><i class="fa fa-times-circle"></i></a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </li>
+                    <li>
+                      <table class="table">
+                        <tbody>
+                          <tr>
+                            <td class="text-right"><strong>Sub-Total</strong></td>
+                            <td class="text-right">$2,100.00</td>
+                          </tr>
+                          <tr>
+                            <td class="text-right"><strong>Eco Tax (-2.00)</strong></td>
+                            <td class="text-right">$2.00</td>
+                          </tr>
+                          <tr>
+                            <td class="text-right"><strong>VAT (20%)</strong></td>
+                            <td class="text-right">$20.00</td>
+                          </tr>
+                          <tr>
+                            <td class="text-right"><strong>Total</strong></td>
+                            <td class="text-right">$2,122.00</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </li>
+                    <li>
+                      <form action="cart_page.html">
+                        <input class="btn pull-left mt_10" value="View cart" type="submit">
+                      </form>
+                      <form action="checkout_page.html">
+                        <input class="btn pull-right mt_10" value="Checkout" type="submit">
+                      </form>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="main-search pull-right">
+                <div class="search-overlay">
+                  <!-- Close Icon -->
+                  <a href="javascript:void(0)" class="search-overlay-close"></a>
+                  <!-- End Close Icon -->
+                  <div class="container">
+                    <!-- Search Form -->
+                    <form role="search" id="searchform" action="/search" method="get">
+                      <label class="h5 normal search-input-label">Enter keywords To Search Entire Store</label>
+                      <input value="" name="q" placeholder="Search here..." type="search">
+                      <button type="submit"></button>
+                    </form>
+                    <!-- End Search Form -->
+                  </div>
+                </div>
+                <div class="header-search"> <a id="search-overlay-btn"></a> </div>
+              </div>
+            </div>
+            <div class="collapse navbar-collapse js-navbar-collapse pull-right">
+              <ul id="menu" class="nav navbar-nav">
+                <li> <a href="index.html">Home</a></li>
+                <li class="dropdown mega-dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services </a>
+                  <ul class="dropdown-menu mega-dropdown-menu row">
+                    <li class="col-md-3">
+                      <ul>
+                        <li class="dropdown-header">Women's</li>
+                        <li><a href="#">Unique Features</a></li>
+                        <li><a href="#">Image Responsive</a></li>
+                        <li><a href="#">Auto Carousel</a></li>
+                        <li><a href="#">Newsletter Form</a></li>
+                        <li><a href="#">Four columns</a></li>
+                        <li><a href="#">Four columns</a></li>
+                        <li><a href="#">Good Typography</a></li>
+                      </ul>
+                    </li>
+                    <li class="col-md-3">
+                      <ul>
+                        <li class="dropdown-header">Man's</li>
+                        <li><a href="#">Unique Features</a></li>
+                        <li><a href="#">Image Responsive</a></li>
+                        <li><a href="#">Four columns</a></li>
+                        <li><a href="#">Auto Carousel</a></li>
+                        <li><a href="#">Newsletter Form</a></li>
+                        <li><a href="#">Four columns</a></li>
+                        <li><a href="#">Good Typography</a></li>
+                      </ul>
+                    </li>
+                    <li class="col-md-3">
+                      <ul>
+                        <li class="dropdown-header">Children's</li>
+                        <li><a href="#">Unique Features</a></li>
+                        <li><a href="#">Four columns</a></li>
+                        <li><a href="#">Image Responsive</a></li>
+                        <li><a href="#">Auto Carousel</a></li>
+                        <li><a href="#">Newsletter Form</a></li>
+                        <li><a href="#">Four columns</a></li>
+                        <li><a href="#">Good Typography</a></li>
+                      </ul>
+                    </li>
+                    <li class="col-md-3">
+                      <ul>
+                        <li id="myCarousel" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="item active"> <a href="#"><img src='{{url("images/menu-banner1.jpg")}}' class="img-responsive" alt="Banner1"></a></div>
+                            <!-- End Item -->
+                            <div class="item"> <a href="#"><img src='{{url("images/menu-banner2.jpg")}}' class="img-responsive" alt="Banner1"></a></div>
+                            <!-- End Item -->
+                            <div class="item"> <a href="#"><img src='{{url("images/menu-banner3.jpg")}}' class="img-responsive" alt="Banner1"></a></div>
+                            <!-- End Item -->
+                          </div>
+                          <!-- End Carousel Inner -->
+                        </li>
+                        <!-- /.carousel -->
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="category_page.html">Rate List</a></li>
+                <li> <a href="blog_page.html">Blog</a></li>
+                
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages </a>
+                  <ul class="dropdown-menu">
+                    <li> <a href="contact_us.html">Contact us</a></li>
+                    <li> <a href="cart_page.html">Cart</a></li>
+                    <li> <a href="checkout_page.html">Checkout</a></li>
+                    <li> <a href="product_detail_page.html">Product Detail Page</a></li>
+                    <li> <a href="single_blog.html">Single Post</a></li>
+                  </ul>
+                </li>
+                <li> <a href="about.html">About us</a></li>
+              </ul>
+            </div>
+            <!-- /.nav-collapse -->
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- =====  HEADER END  ===== -->
+
+    @yield('content')
+
+     <!-- =====  FOOTER START  ===== -->
+     <div class="footer pt_60">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer-block">
+            <div class="content_footercms_right">
+              <div class="footer-contact">
+                <div class="footer-logo mt_20 mb_40">
+                   <a href="index.html"> 
+                      <h2>One Way Travel</h2>
+                   {{-- <img src='{{url("images/footer-logo.png")}}' alt="Cools">  --}}
+                  </a> 
+               </div>
+                <ul>
+                  <li>B-14 Collins Street West Victoria 2386</li>
+                  <li>(+123) 456 789 - (+024) 666 888</li>
+                  <li>Contact@yourcompany.com</li>
+                </ul>
+                <div class="social_icon">
+                  <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 footer-block">
+            <h6 class="footer-title ptb_20">Categories</h6>
+            <ul>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Footwear</a></li>
+              <li><a href="#">Jewellery</a></li>
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Accessories</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 footer-block">
+            <h6 class="footer-title ptb_20">Information</h6>
+            <ul>
+              <li><a href="contact.html">Specials</a></li>
+              <li><a href="#">New Products</a></li>
+              <li><a href="#">Best Sellers</a></li>
+              <li><a href="#">Our Stores</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 footer-block">
+            <h6 class="footer-title ptb_20">My Account</h6>
+            <ul>
+              <li><a href="#">Checkout</a></li>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">My Orders</a></li>
+              <li><a href="#">My Credit Slips</a></li>
+              <li><a href="#">My Addresses</a></li>
+              <li><a href="#">My Personal Info</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="ptb_20">SIGN UP OUR NEWSLETTER</h6>
+            <p class="mt_10 mb_20">For get offers from our favorite brands & get 20% off for next </p>
+            <div class="form-group">
+              <input class="mb_20" type="text" placeholder="Enter Your Email Address">
+              <button class="btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom mt_60 ptb_10">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="copyright-part">@ 2018 All Rights Reserved Cools</div>
+            </div>
+            <div class="col-sm-6">
+              <div class="payment-icon text-right">
+                <ul>
+                  <li><i class="fa fa-cc-paypal "></i></li>
+                  <li><i class="fa fa-cc-stripe"></i></li>
+                  <li><i class="fa fa-cc-visa"></i></li>
+                  <li><i class="fa fa-cc-discover"></i></li>
+                  <li><i class="fa fa-cc-mastercard"></i></li>
+                  <li><i class="fa fa-cc-amex"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =====  FOOTER END  ===== -->
+  </div>
+  <a id="scrollup">Scroll</a>
+  <script src="js/jQuery_v3.1.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.magnific-popup.js"></script>
+  <script src="js/jquery.firstVisitPopup.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
 </html>
-

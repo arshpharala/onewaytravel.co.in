@@ -1,432 +1,1354 @@
 @extends('layouts.master')
 @section('content')
-       
-       
-      <!-- Slider Area Start -->
-      <section class="gauto-slider-area fix">
-         <div class="gauto-slide owl-carousel">
-            <div class="gauto-main-slide slide-item-1">
-               <div class="gauto-main-caption">
-                  <div class="gauto-caption-cell">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-12">
-                              <div class="slider-text">
-                                 <p>Jalandhar To Delhi Airport Taxi</p>
-                                 <h2>Book Now & Get <span>10% Off</span></h2>
-                                 <a href="#" class="gauto-btn">Book Now!</a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+
+    <!-- =====  BANNER STRAT  ===== -->
+    <div class="banner">
+      <div class="main-banner owl-carousel">
+        <div class="item"><a href="#"><img src='{{url("images/main_banner1.jpg")}}' alt="Main Banner" class="img-responsive" /></a></div>
+        <div class="item"><a href="#"><img src='{{url("images/main_banner2.jpg")}}' alt="Main Banner" class="img-responsive" /></a></div>
+      </div>
+    </div>
+    <!-- =====  BANNER END  ===== -->
+    <div class="row">
+    </div>
+    <!-- =====  CONTAINER START  ===== -->
+    <div class="container">
+      <div class="row ">
+        <div id="brand_special" class="pt_30 text-center">
+          <div class="type-01">
+              <div class="col-sm-12">
+                <div class="sunglasses owl-carousel ptb_20">
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-1.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-2.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-3.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-4.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-5.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-6.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-7.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-8.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-9.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-10.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-11.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-12.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-13.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-14.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-15.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-16.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-17.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-18.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-19.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                  <div class="item text-center"> <a href="#"> <img src='{{url("images/sunglasses/sunglasses-20.png")}}' alt="Disney" class="img-responsive"/> </a> </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- =====  SUB BANNER  STRAT ===== -->
+        <div class="cms_banner">
+          <div class="col-xs-5 col-sm-5 col-md-5 mt_30">
+            <div id="subbanner1" class="sub-hover"> <a href="#"><img src='{{url("images/sub1.jpg")}}' alt="Sub Banner1" class="img-responsive"></a>
+              <div class="bannertext">
+                <h2><span>use code : w48sdc</span><br>highest quality designer frames.</h2>
+              </div>
             </div>
-            <div class="gauto-main-slide slide-item-2">
-               <div class="gauto-main-caption">
-                  <div class="gauto-caption-cell">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-12">
-                              <div class="slider-text">
-                                 <p>Hoshiarpur To Delhi Airport Taxi</p>
-                                 <h2>Book Now & Get <span>10% Off</span></h2>
-                                 <a href="#" class="gauto-btn">Book Now!</a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- Slider Area End -->
-       
-       
-      <!-- Find Area Start -->
-      <section class="gauto-find-area">
-         <div class="container">
+          </div>
+          <div class="col-xs-7 col-sm-7 col-md-7 mt_30">
             <div class="row">
-               <div class="col-md-12">
-                  <div class="find-box">
-                     <div class="row">
-                        <div class="col-md-4">
-                           <div class="find-text">
-                              <h3>Book Your Travel with us.</h3>
-                           </div>
-                        </div>
-                        <div class="col-md-8">
-                           <div class="find-form">
-                              <form>
-                                 <div class="row">
-                                    <div class="col-md-4">
-                                       <p>
-                                          <input type="text" placeholder="From Address" />
-                                       </p>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <p>
-                                          <input type="text" placeholder="To Address" />
-                                       </p>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <p>
-                                          <select>
-                                             <option data-display="Select Car"></option>
-                                             <option>Etios (4 Seater)</option>
-                                             <option>Innova (7 Seater)</option>
-                                             <option>Marrazo (7 Seater)</option>
-                                             <option>Traveller (12 Seater)</option>
-                                          </select>
-                                       </p>
-                                    </div>
-                                 </div>
-                                 <div class="row">
-                                    <div class="col-md-4">
-                                       <p>
-                                          <input id="reservation_date" name="reservation_date" placeholder="Journey Date" data-select="datepicker" type="text">
-                                       </p>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <p class="input-group clockpicker" data-placement="bottom" data-align="top" data-autoclose="true">
-                                          <input type="text" class="form-control" placeholder="Journey Time" />
-                                       </p>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <p>
-                                          <button type="submit" class="gauto-theme-btn">Send Booking</button>
-                                       </p>
-                                    </div>
-                                 </div>
-                              </form>
-                           </div>
-                        </div>
-                     </div>
+              <div class="col-xs-6 col-sm-6 col-md-6">
+                <div id="subbanner2" class="sub-hover"> <a href="#"><img src='{{url("images/sub2.jpg")}}' alt="Sub Banner2" class="img-responsive"></a>
+                  <div class="bannertext">
+                    <h2>Women<br>Sunglasses</h2>
+                    <p class="mt_10">Discover wide range</p>
                   </div>
-               </div>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6">
+                <div id="subbanner3" class="sub-hover"> <a href="#"><img src='{{url("images/sub3.jpg")}}' alt="Sub Banner3" class="img-responsive"></a>
+                  <div class="bannertext">
+                    <h2>Men's<br>Sunglasses</h2>
+                    <p class="mt_10">Great collection</p>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
-      </section>
-      <!-- Find Area End -->
-       
-       
-      <!-- About Area Start -->
-      <section class="gauto-about-area section_70">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-6">
-                  <div class="about-left">
-                     <h4>about us</h4>
-                     <h2>One Way Travel</h2>
-                     <p>Make My Rides provides a one-stop solution for all your travel needs.
-                        Aimed at simplifying long-distance traveling, we are committed to providing 
-                        a safe, secure, luxurious, and economic service to our customers.</p>
-                     <div class="about-list">
-                        <ul>
-                           <li><i class="fa fa-check"></i>Chemical sanitization of the cabs</li>
-                           <li><i class="fa fa-check"></i>All Cabs are new model</li>
-                           <li><i class="fa fa-check"></i>Regular medical screening of staff</li>
-                           <li><i class="fa fa-check"></i>24X7 Customer Support Available</li>
-                        </ul>
-                     </div>
-                     <div class="about-signature">
-                        <div class="signature-left">
-                           <img src="{{url('public/assets/images/img-signature.png')}}" alt="signature" />
-                        </div>
-                        <div class="signature-right">
-                           <h3>Surjit Thapar</h3>
-                           <p><b>CEO</b>, One Way Travel</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-6">
-                  <div class="about-right">
-                     <img src="{{url('public/assets/images/about-us.jpg')}}" alt="car" />
-                  </div>
-               </div>
+          </div>
+        </div>
+        <!-- =====  SUB BANNER END  ===== -->
+        <div class="col-sm-12">
+          <!-- =====  PRODUCT TAB  ===== -->
+          <div id="product-tab" class="mt_60">
+            <div class="heading-part mb_20 ">
+              <h2 class="main_title">Special Products</h2>
             </div>
-         </div>
-      </section>
-      <!-- About Area End -->
-      
-         
-      <!-- Offers Area Start -->
-      <section class="gauto-offers-area section_70">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="site-heading">
-                     <h4>Come with</h4>
-                     <h2>Major Routes</h2>
+            <ul class="nav text-right">
+              <li class="active"> <a href="#nArrivals" data-toggle="tab">New Arrivals</a> </li>
+              <li><a href="#Bestsellers" data-toggle="tab">Bestsellers</a> </li>
+              <li><a href="#Featured" data-toggle="tab">Featured</a> </li>
+            </ul>
+            <div class="tab-content clearfix box">
+              <div class="tab-pane active" id="nArrivals">
+                <div class="nArrivals owl-carousel">
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-               </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="Bestsellers">
+                <div class="Bestsellers owl-carousel">
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="Featured">
+                <div class="Featured owl-carousel">
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-thumb  mb_30">
+                        <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                        <div class="caption product-detail text-left">
+                          <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                          <div class="rating">
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                          </div>
+                          <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                          </span>
+                          <div class="button-group text-center">
+                            <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                            <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                            <div class="compare"><a href="#"><span>Compare</span></a></div>
+                            <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="offer-tabs">
-                     <ul class="nav nav-tabs" id="offerTab" role="tablist">
-                        @foreach ($serviceLocations as $serviceLocation)
-                        <li class="nav-item">
-                           <a class="nav-link active" id="{{$serviceLocation->reference}}-tab" data-toggle="tab" href="#{{$serviceLocation->reference}}" role="tab" aria-controls="{{$serviceLocation->name}}" aria-selected="true">{{$serviceLocation->name}}</a>
-                        </li>
-                        @endforeach
-                     </ul>
-                     <div class="tab-content" id="offerTabContent">
-                        <!-- All Tab Start -->
-                        @foreach ($serviceLocations as $serviceLocation)
-                        
-                        <div class="tab-pane fade show active" id="{{$serviceLocation->reference}}" role="tabpanel" aria-labelledby="{{$serviceLocation->reference}}-tab">
-                        @foreach ($serviceLocation->courses as $course)
-                        {{-- {{dd($course)}} --}}
-                        <div class="row">
-                           <div class="col-lg-4">
-                            <div class="single-offers">
-                               <div class="offer-image">
-                                 <a href="#">
-                                     @if (isset($course->displayImage))
-                                     <img src="{{url('public/'.$course->displayImage)}}" alt="{{$course->name}}" />       
-                                     @else
-                                     <img src="{{url('public/assets/images/onewaytravel.png')}}" alt="{{$course->name}}" />   
-                                     @endif    
-                                  </a>
-                               </div>
-                               <div class="offer-text">
-                                  <a href="#">
-                                     <h3>{{$course->name}}</h3>
-                                  </a>
-                                  <h4>Rs. 200 /-</h4>
-                                  <ul>
-                                     <li><i class="fa fa-car"></i>Etios</li>
-                                     <li><i class="fa fa-cogs"></i>A C</li>
-                                     <li><i class="fa fa-dashboard"></i>{{$course->duration}} km</li>
-                                  </ul>
-                                  <div class="offer-action">
-                                     <a href="#" class="offer-btn-1">Book Now</a>
-                                     <a href="#" class="offer-btn-2"><i class="fa fa-whatsapp"></i> Whatsapp us</a>
-                                  </div>
-                               </div>
-                            </div>
-                         </div>
-                      
-                        @endforeach
-                     </div>
-                           
-                        
-                        @endforeach
-                        
-               
-                         
-                     </div>
+          </div>
+          <!-- =====  PRODUCT TAB  END ===== -->
+          <!-- =====  SUB BANNER  STRAT ===== -->
+          <div class="row">
+            <div class="cms_banner mt_40 mb_60">
+              <div class="col-xs-12">
+                <div id="subbanner5" class="banner"> <a href="#"><img src='{{url("images/sub5.png")}}' alt="Sub Banner5" class="img-responsive"></a>
+                  <div class="bannertext">
+                    <h2>Buy sunglasses</h2>
+                    <span>A great collection of 600+ stylish and trendy</span>
+                    <button class="btn">Shop now</button>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
-      </section>
-      <!-- Offers Area End -->
-       
-       
-      <!-- Promo Area Start -->
-      <section class="gauto-promo-area">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="promo-box-left">
-                     <img src="{{url('public/assets/images/tourPlan.png')}}" alt="promo car" />
+          </div>
+          <!-- =====  SUB BANNER END  ===== -->          
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8 col-lg-9 mt_60">
+              <!-- =====  sale product  ===== -->
+              <div id="sale-product">
+                <div class="heading-part mb_20 ">
+                  <h2 class="main_title">Best Trending Deals</h2>
+                </div>
+                <div class="Specials owl-carousel">
+                  <div class="item product-layout product-list">
+                    <div class="product-thumb">
+                      <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                      <div class="caption product-detail text-left">
+                        <h6 data-name="product_name" class="product-name"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                        <div class="rating">
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                        </div>
+                        <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                        </span>
+                        <p class="product-desc mt_20"> More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.Cover Flow. Browse through your music collection by flipping..</p>
+                        <div class="timer mt_80">
+                          <div class="days"></div>
+                          <div class="hours"></div>
+                          <div class="minutes"></div>
+                          <div class="seconds"></div>
+                        </div>
+                        <div class="button-group text-center">
+                          <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                          <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                          <div class="compare"><a href="#"><span>Compare</span></a></div>
+                          <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="promo-box-right">
-                     <h3>Going to Plan a Trip? So Don't be Late.</h3>
-                     <a href="#" class="gauto-btn">Book Now</a>
+                  <div class="item product-layout product-list">
+                    <div class="product-thumb">
+                      <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                      <div class="caption product-detail text-left">
+                        <h6 data-name="product_name" class="product-name"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                        <div class="rating">
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                        </div>
+                        <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                        </span>
+                        <p class="product-desc mt_20"> More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.Cover Flow. Browse through your music collection by flipping..</p>
+                        <div class="timer mt_80">
+                          <div class="days"></div>
+                          <div class="hours"></div>
+                          <div class="minutes"></div>
+                          <div class="seconds"></div>
+                        </div>
+                        <div class="button-group text-center">
+                          <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                          <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                          <div class="compare"><a href="#"><span>Compare</span></a></div>
+                          <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-               </div>
+                  <div class="item product-layout product-list">
+                    <div class="product-thumb">
+                      <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                      <div class="caption product-detail text-left">
+                        <h6 data-name="product_name" class="product-name"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                        <div class="rating">
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                        </div>
+                        <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                        </span>
+                        <p class="product-desc mt_20"> More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.Cover Flow. Browse through your music collection by flipping..</p>
+                        <div class="timer mt_80">
+                          <div class="days"></div>
+                          <div class="hours"></div>
+                          <div class="minutes"></div>
+                          <div class="seconds"></div>
+                        </div>
+                        <div class="button-group text-center">
+                          <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                          <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                          <div class="compare"><a href="#"><span>Compare</span></a></div>
+                          <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- =====  sale product end ===== -->
             </div>
-         </div>
-      </section>
-      <!-- Promo Area End -->
-       
-       
-      <!-- Service Area Start -->
-      <section class="gauto-service-area section_70">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="site-heading">
-                     <h4>see our</h4>
-                     <h2>Latest Services</h2>
+            <!-- =====  testimonial  ===== -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt_60">
+              <div class="Testimonial right-sidebar-widget">
+                <div class="heading-part mb_20 ">
+                  <h2 class="main_title">Testimonial</h2>
+                </div>
+                <div class="client owl-carousel text-center">
+                  <div class="item client-detail">
+                    <div class="client-avatar"> <img alt="" src='{{url("images/user1.jpg")}}'> </div>
+                    <div class="client-title  mt_30"><strong>joseph Lui</strong></div>
+                    <div class="client-designation mb_10">php Developer</div>
+                    <p><i class="fa fa-quote-left" aria-hidden="true"></i>Lorem ipsum dolor sit amet, volumus oporteat his at sea in Rem ipsum dolor sit amet, sea in odio ..</p>
                   </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="service-slider owl-carousel">
-                     <div class="single-service">
-                        <span class="service-number">01 </span>
-                        <div class="service-icon">
-                           <img src="{{url('public/assets/images/img-city-transport.png')}}" alt="city trasport" />
-                        </div>
-                        <div class="service-text">
-                           <a href="#">
-                              <h3>City transfer</h3>
-                           </a>
-                           {{-- <p>Risus commodo maecenas accumsan lacus vel facilisis. Dorem ipsum dolor consectetur adipiscing elit.</p> --}}
-                        </div>
-                     </div>
-                     <div class="single-service">
-                        <span class="service-number">02 </span>
-                        <div class="service-icon">
-                           <img src="{{url('public/assets/images/img-airport-transport.png')}}" alt="airport trasport" />
-                        </div>
-                        <div class="service-text">
-                           <a href="#">
-                              <h3>Airport transfer</h3>
-                           </a>
-                           {{-- <p>Risus commodo maecenas accumsan lacus vel facilisis. Dorem ipsum dolor consectetur adipiscing elit.</p> --}}
-                        </div>
-                     </div>
-                     <div class="single-service">
-                        <span class="service-number">03 </span>
-                        <div class="service-icon">
-                           <img src="{{url('public/assets/images/img-hospital-transport.png')}}" alt="hospital trasport" />
-                        </div>
-                        <div class="service-text">
-                           <a href="#">
-                              <h3>Hospital transfer</h3>
-                           </a>
-                           {{-- <p>Risus commodo maecenas accumsan lacus vel facilisis. Dorem ipsum dolor consectetur adipiscing elit.</p> --}}
-                        </div>
-                     </div>
-                     <div class="single-service">
-                        <span class="service-number">04 </span>
-                        <div class="service-icon">
-                           <img src="{{url('public/assets/images/img-wedding-ceremony.png')}}" alt="wedding trasport" />
-                        </div>
-                        <div class="service-text">
-                           <a href="#">
-                              <h3>wedding Cars</h3>
-                           </a>
-                           {{-- <p>Risus commodo maecenas accumsan lacus vel facilisis. Dorem ipsum dolor consectetur adipiscing elit.</p> --}}
-                        </div>
-                     </div>
-                     <div class="single-service">
-                        <span class="service-number">05 </span>
-                        <div class="service-icon">
-                           <img src="{{url('public/assets/images/img-hotel-transport.png')}}" alt="wedding trasport" />
-                        </div>
-                        <div class="service-text">
-                           <a href="#">
-                              <h3>Whole City Tour</h3>
-                           </a>
-                           {{-- <p>Risus commodo maecenas accumsan lacus vel facilisis. Dorem ipsum dolor consectetur adipiscing elit.</p> --}}
-                        </div>
-                     </div>
-                     <div class="single-service">
-                        <span class="service-number">06 </span>
-                        <div class="service-icon">
-                           <img src="{{url('public/assets/images/img-luggege-transport.png')}}" alt="wedding trasport" />
-                        </div>
-                        <div class="service-text">
-                           <a href="#">
-                              <h3>Baggage transport</h3>
-                           </a>
-                           {{-- <p>Risus commodo maecenas accumsan lacus vel facilisis. Dorem ipsum dolor consectetur adipiscing elit.</p> --}}
-                        </div>
-                     </div>
+                  <div class="item client-detail">
+                    <div class="client-avatar"> <img alt="" src='{{url("images/user2.jpg")}}'> </div>
+                    <div class="client-title  mt_30"><strong>joseph Lui</strong></div>
+                    <div class="client-designation mb_10">php Developer</div>
+                    <p><i class="fa fa-quote-left" aria-hidden="true"></i>Lorem ipsum dolor sit amet, volumus oporteat his at sea in Rem ipsum dolor sit amet, sea in odio ..</p>
                   </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- Service Area End -->
-       
-       
-      <!-- Testimonial Area Start -->
-      <section class="gauto-testimonial-area section_70">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="site-heading">
-                     <h4>Some words</h4>
-                     <h2>testimonial</h2>
+                  <div class="item client-detail">
+                    <div class="client-avatar"> <img alt="" src='{{url("images/user3.jpg")}}'> </div>
+                    <div class="client-title  mt_30"><strong>joseph Lui</strong></div>
+                    <div class="client-designation mb_10">php Developer</div>
+                    <p><i class="fa fa-quote-left" aria-hidden="true"></i>Lorem ipsum dolor sit amet, volumus oporteat his at sea in Rem ipsum dolor sit amet, sea in odio ..</p>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="testimonial-slider owl-carousel">
-                  @foreach ($testimonials as $testimonial)
-                      <div class="single-testimonial">
-                        <div class="testimonial-text">
-                           <p>"{{$testimonial->content}}"</p>
-                           <div class="testimonial-meta">
-                              <div class="client-image">
-                                 <img src="{{url('public/assets/images/img-testimonial.jpg')}}" alt="testimonial" />
-                              </div>
-                              <div class="client-info">
-                                 <h3>{{$testimonial->author}}</h3>
-                                 <p>Customer</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  @endforeach 
+            <!-- =====  testimonial end ===== -->
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading-part text-center">
+                <h2 class="main_title mt_50">Top Products</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="related-pro  owl-carousel mb_50 mt_10">
+              <div class="item">
+                <div class="product-thumb">
+                  <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                  <div class="caption product-detail text-left">
+                    <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                    <div class="rating">
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                    </div>
+                    <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                    </span>
+                    <div class="button-group text-center">
+                      <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                      <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                      <div class="compare"><a href="#"><span>Compare</span></a></div>
+                      <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                    </div>
                   </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- Testimonial Area End -->
-       
-       
-      <!-- Blog Area Start -->
-      <section class="gauto-blog-area section_70">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="site-heading">
-                     <h4>latest</h4>
-                     <h2>Tour Package</h2>
+                </div>
+              </div>
+              <div class="item">
+                <div class="product-thumb">
+                  <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                  <div class="caption product-detail text-left">
+                    <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                    <div class="rating">
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                    </div>
+                    <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                    </span>
+                    <div class="button-group text-center">
+                      <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                      <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                      <div class="compare"><a href="#"><span>Compare</span></a></div>
+                      <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                    </div>
                   </div>
-               </div>
-            </div>
-            <div class="row">
-            @foreach ($serviceCategories as $tour)
-            {{-- {{dd($tour)}} --}}
-                <div class="col-lg-4">
-                  <div class="single-blog">
-                     <div class="blog-image">
-                        <a href="#">
-                           @if (isset($tour->displayImage))
-                           <img src="{{url('public/'.$tour->displayImage)}}" alt="{{$tour->name}}" />
-                           @endif
-                        
-                        </a>
-                     </div>
-                     <div class="blog-text">
-                        <h3><a href="#">{{$tour->name}}</a></h3>
-                        <div class="blog-meta-home">
-                           <div class="blog-meta-left">
-                              <p>Rs. 200 /- Per Person</p>
-                           </div>
-                           <div class="blog-meta-right">
-                               <p><i class="fa fa-moon-o"></i>1 Nights</p>
-                              <p><i class="fa fa-sun-o"></i> 2 Days</p>
-                           </div>
-                        </div> 
-                     </div>
-                     <div class="offer-action">
-                        <a href="#" class="offer-btn-1">Book Now</a>
-                        <a href="#" class="offer-btn-2"><i class="fa fa-whatsapp"></i> Whatsapp us</a>
-                     </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="product-thumb">
+                  <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                  <div class="caption product-detail text-left">
+                    <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                    <div class="rating">
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                    </div>
+                    <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                    </span>
+                    <div class="button-group text-center">
+                      <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                      <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                      <div class="compare"><a href="#"><span>Compare</span></a></div>
+                      <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                    </div>
                   </div>
-               </div>
-            @endforeach
+                </div>
+              </div>
+              <div class="item">
+                <div class="product-thumb">
+                  <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                  <div class="caption product-detail text-left">
+                    <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                    <div class="rating">
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                    </div>
+                    <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                    </span>
+                    <div class="button-group text-center">
+                      <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                      <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                      <div class="compare"><a href="#"><span>Compare</span></a></div>
+                      <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="product-thumb">
+                  <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                  <div class="caption product-detail text-left">
+                    <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                    <div class="rating">
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                    </div>
+                    <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                    </span>
+                    <div class="button-group text-center">
+                      <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                      <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                      <div class="compare"><a href="#"><span>Compare</span></a></div>
+                      <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="product-thumb">
+                  <div class="image product-imageblock"> <a href="product_detail_page.html"> <img data-name="product_image" src='{{url("images/product/product9.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> <img src='{{url("images/product/product9-1.jpg")}}' alt="iPod Classic" title="iPod Classic" class="img-responsive"> </a> </div>
+                  <div class="caption product-detail text-left">
+                    <h6 data-name="product_name" class="product-name mt_20"><a href="#" title="Casual Shirt With Ruffle Hem">New Aviator Sunglasses</a></h6>
+                    <div class="rating">
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
+                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
+                    </div>
+                    <span class="price"><span class="amount"><span class="currencySymbol">$</span>70.00</span>
+                    </span>
+                    <div class="button-group text-center">
+                      <div class="wishlist"><a href="#"><span>wishlist</span></a></div>
+                      <div class="quickview"><a href="#"><span>Quick View</span></a></div>
+                      <div class="compare"><a href="#"><span>Compare</span></a></div>
+                      <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
-      </section>
-      <!-- Blog Area End -->
-       
- @endSection      
-     
+          </div>
+          <!-- =====  Blog ===== -->
+          <div id="Blog" class="mt_60">
+            <div class="heading-part mb_20 ">
+              <h2 class="main_title">Latest from the Blog</h2>
+            </div>
+            <div class="blog-contain box">
+              <div class="blog owl-carousel ">
+                <div class="item">
+                  <div class="box-holder">
+                    <div class="thumb post-img"><a href="#"> <img src='{{url("images/blog/blog_img_01.jpg")}}' alt="Cools"> </a> </div>
+                    <div class="post-info mtb_20 ">
+                      <h6 class="mb_10 text-uppercase"> <a href="single_blog.html">Fashions fade, style is eternal</a> </h6>
+                      <p>Aliquam egestas pellentesque est. Etiam a orci Nulla id enim feugiat ligula ullamcorper scelerisque. Morbi eu luctus nisl.</p>
+                      <div class="date-time">
+                        <div class="day"> 11</div>
+                        <div class="month">Aug</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="box-holder">
+                    <div class="thumb post-img"><a href="#"> <img src='{{url("images/blog/blog_img_02.jpg")}}' alt="Cools"> </a></div>
+                    <div class="post-info mtb_20 ">
+                      <h6 class="mb_10 text-uppercase"> <a href="single_blog.html">Fashions fade, style is eternal</a> </h6>
+                      <p>Aliquam egestas pellentesque est. Etiam a orci Nulla id enim feugiat ligula ullamcorper scelerisque. Morbi eu luctus nisl.</p>
+                      <div class="date-time">
+                        <div class="day"> 11</div>
+                        <div class="month">Aug</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="box-holder">
+                    <div class="thumb post-img"><a href="#"> <img src='{{url("images/blog/blog_img_01.jpg")}}' alt="Cools"> </a></div>
+                    <div class="post-info mtb_20 ">
+                      <h6 class="mb_10 text-uppercase"> <a href="single_blog.html">Fashions fade, style is eternal</a> </h6>
+                      <p>Aliquam egestas pellentesque est. Etiam a orci Nulla id enim feugiat ligula ullamcorper scelerisque. Morbi eu luctus nisl.</p>
+                      <div class="date-time">
+                        <div class="day"> 11</div>
+                        <div class="month">Aug</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="box-holder">
+                    <div class="thumb post-img"><a href="#"> <img src='{{url("images/blog/blog_img_02.jpg")}}' alt="Cools"> </a></div>
+                    <div class="post-info mtb_20 ">
+                      <h6 class="mb_10 text-uppercase"> <a href="single_blog.html">Fashions fade, style is eternal</a> </h6>
+                      <p>Aliquam egestas pellentesque est. Etiam a orci Nulla id enim feugiat ligula ullamcorper scelerisque. Morbi eu luctus nisl.</p>
+                      <div class="date-time">
+                        <div class="day"> 11</div>
+                        <div class="month">Aug</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- =====  Blog end ===== -->
+          </div>
+        </div>
+      </div>
+      <div id="brand_carouse" class="mtb_40 text-center">
+        <div class="type-01">
+          <div class="heading-part mb_20 ">
+            <h2 class="main_title">Brand Logo</h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="brand owl-carousel ptb_20">
+                <div class="item text-center"> <a href="#"><img src='{{url("images/brand/brand1.png")}}' alt="Disney" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src='{{url("images/brand/brand1.png")}}' alt="Dell" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src='{{url("images/brand/brand1.png")}}' alt="Harley" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src='{{url("images/brand/brand1.png")}}' alt="Canon" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src='{{url("images/brand/brand1.png")}}' alt="Canon" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src='{{url("images/brand/brand1.png")}}' alt="Canon" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src='{{url("images/brand/brand1.png")}}' alt="Canon" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src='{{url("images/brand/brand1.png")}}' alt="Canon" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src='{{url("images/brand/brand1.png")}}' alt="Canon" class="img-responsive" /></a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =====  CONTAINER END  ===== -->
+        
+@endsection
+   
